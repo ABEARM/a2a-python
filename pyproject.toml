@@ -41,7 +41,7 @@ grpc = ["grpcio>=1.60", "grpcio-tools>=1.60", "grpcio-status>=1.60", "grpcio_ref
 telemetry = ["opentelemetry-api>=1.33.0", "opentelemetry-sdk>=1.33.0"]
 postgresql = ["sqlalchemy[asyncio,postgresql-asyncpg]>=2.0.0"]
 mysql = ["sqlalchemy[asyncio,aiomysql]>=2.0.0"]
-signing = ["PyJWT>=2.0.0"]
+signing = ["PyJWT>=2.13.0"]
 sqlite = ["sqlalchemy[asyncio,aiosqlite]>=2.0.0"]
 db-cli = ["alembic>=1.14.0"]
 
@@ -108,7 +108,7 @@ style = "pep440"
 [dependency-groups]
 dev = [
   "fastapi>=0.115.2",
-  "PyJWT>=2.0.0",
+  "PyJWT>=2.13.0",
   "pytest>=8.3.5",
   "pytest-asyncio>=0.26.0",
   "pytest-cov>=6.1.1",
